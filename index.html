@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="keyboard" ontouchstart="">
+		<div class="row"><button type="button" class="btn0"><span class="xs">esc</span>
+			</button><button type="button" class="btn0"><span class="xs noxscale"><span class="emoji">&#128261;</span></span><span class="lr xxxs">F1</span>
+			</button><button type="button" class="btn0"><span class="xs noxscale"><span class="emoji">&#128262;</span></span><span class="lr xxxs">F2</span>
+			</button><button type="button" class="btn0"><span class="xs noxscale"><span class="cascade"></span><span class="block"></span></span><span class="lr xxxs">F3</span>
+			</button><button type="button" class="btn0"><span class="xxxs noxscale"><span class="apps"></span></span><span class="lr xxxs">F4</span>
+			</button><button type="button" class="btn0"><span class="lr xxxs">F5</span>
+			</button><button type="button" class="btn0"><span class="lr xxxs">F6</span>
+			</button><button type="button" class="btn0"><span class="sm"><span class="left"></span><span class="left"></span></span><span class="lr xxxs">F7</span>
+			</button><button type="button" class="btn0"><span class="sm"><span class="right"></span><span class="pause"></span></span><span class="lr xxxs">F8</span>
+			</button><button type="button" class="btn0"><span class="sm"><span class="right"></span><span class="right"></span></span><span class="lr xxxs">F9</span>
+			</button><button type="button" class="btn0"><span class="xs noxscale"><span class="emoji">&#128264;</span></span><span class="lr xxxs">F10</span>
+			</button><button type="button" class="btn0"><span class="xs noxscale"><span class="emoji">&#128265;</span></span><span class="lr xxxs">F11</span>
+			</button><button type="button" class="btn0"><span class="xs noxscale"><span class="emoji">&#128266;</span></span><span class="lr xxxs">F12</span>
+			</button><button type="button" class="btn0"><span class="xs noxscale">⏏</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn1"><span class="lr xxxs">F13</span>
+			</button><button type="button" class="btn1"><span class="lr xxxs">F14</span>
+			</button><button type="button" class="btn1"><span class="lr xxxs">F15</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn1"><span class="lr xxxs">F16</span>
+			</button><button type="button" class="btn1"><span class="lr xxxs">F17</span>
+			</button><button type="button" class="btn1"><span class="lr xxxs">F18</span>
+			</button><button type="button" class="btn1"><span class="lr xxxs">F19</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn2"><span class="sm">~<br/>`</span>
+			</button><button type="button" class="btn2"><span class="sm">!<br/>1</span>
+			</button><button type="button" class="btn2"><span class="sm">@<br/>2</span>
+			</button><button type="button" class="btn2"><span class="sm">#<br/>3</span>
+			</button><button type="button" class="btn2"><span class="sm">$<br/>4 ₮</span>
+			</button><button type="button" class="btn2"><span class="sm">%<br/>5</span>
+			</button><button type="button" class="btn2"><span class="sm">^<br/>6</span>
+			</button><button type="button" class="btn2"><span class="sm">&amp;<br/>7</span>
+			</button><button type="button" class="btn2"><span class="sm">*<br/>8</span>
+			</button><button type="button" class="btn2"><span class="sm">(<br/>9</span>
+			</button><button type="button" class="btn2"><span class="sm">)<br/>0</span>
+			</button><button type="button" class="btn2" id="dash"><span class="sm">_<br/>- Е</span>
+			</button><button type="button" class="btn2" id="add"><span class="sm">+<br/>= Щ</span>
+			</button><button type="button" class="btn3"><span class="lr xs">delete</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn2"><span class="xs">fn</span>
+			</button><button type="button" class="btn2"><span class="xs">home</span>
+			</button><button type="button" class="btn2"><span class="xs">page up</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn2"><span class="xs">clear</span>
+			</button><button type="button" class="btn2"><span>=</span>
+			</button><button type="button" class="btn2"><span>/</span>
+			</button><button type="button" class="btn2"><span>*</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn3"><span class="ll xs">tab</span>
+			</button><button type="button" class="btn2" id="q-letter"><span class="sm">Q<br>Ф</span>
+			</button><button type="button" class="btn2" id="w-letter"><span class="sm">W<br>Ц</span>
+			</button><button type="button" class="btn2" id="e-letter"><span class="sm">E<br>У</span>
+			</button><button type="button" class="btn2" id="r-letter"><span class="sm">R<br>Ж</span>
+			</button><button type="button" class="btn2" id="t-letter"><span class="sm">T<br>Э</span>
+			</button><button type="button" class="btn2" id="y-letter"><span class="sm">Y<br>Н</span>
+			</button><button type="button" class="btn2" id="u-letter"><span class="sm">U<br>Г</span>
+			</button><button type="button" class="btn2" id="i-letter"><span class="sm">I<br>Ш</span>
+			</button><button type="button" class="btn2" id="o-letter"><span class="sm">O<br>Ү</span>
+			</button><button type="button" class="btn2" id="p-letter"><span class="sm">P<br>З</span>
+			</button><button type="button" class="btn2" id="left-brace"><span class="sm">{<br/>[ K</span>
+			</button><button type="button" class="btn2" id="right-brace"><span class="sm">}<br/>] Ь</span>
+			</button><button type="button" class="btn2" id="straight-line"><span class="sm">|<br/>\</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn2" id="delete-btn"><span class="xs noxpad">delete⌦</span>
+			</button><button type="button" class="btn2" id="end-btn"><span class="xs">end</span>
+			</button><button type="button" class="btn2" id="page-down"><span class="xs">page down</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn2" id="seven"><span>7</span>
+			</button><button type="button" class="btn2" id="eight"><span>8</span>
+			</button><button type="button" class="btn2" id="nine"><span>9</span>
+			</button><button type="button" class="btn2" id="dash-letter"><span>-</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" id="caps-lock" class="btn4"><span class="ul xs">•</span><span class="ll xs">caps lock</span>
+			</button><button type="button" class="btn2" id="a-letter"><span class="sm">A<br>Й</span>
+			</button><button type="button" class="btn2" id="s-letter"><span class="sm">S<br>Ы</span>
+			</button><button type="button" class="btn2" id="d-letter"><span class="sm">D<br>Б</span>
+			</button><button type="button" class="btn2" id="f-letter"><span class="sm">F<br>Ө</span><span class="bump"></span>
+			</button><button type="button" class="btn2" id="g-letter"><span class="sm">G<br>А</span>
+			</button><button type="button" class="btn2" id="h-letter"><span class="sm">H<br>Х</span>
+			</button><button type="button" class="btn2" id="j-letter"><span class="sm">J<br>Р</span><span class="bump"></span>
+			</button><button type="button" class="btn2" id="k-letter"><span class="sm">K<br>О</span>
+			</button><button type="button" class="btn2" id="l-letter"><span class="sm">L<br>Л</span>
+			</button><button type="button" class="btn2" id="semicolon"><span class="sm">:<br/>; Д</span>
+			</button><button type="button" class="btn2" id="quot"><span class="sm">&quot;<br/>' П</span>
+			</button><button type="button" class="btn4" id="return"><span class="lr xs">return</span>
+			</button>
+		</div>
+		<div class="row"></div>
+		<div class="row"><button type="button" class="btn2"><span>4</span>
+			</button><button type="button" class="btn2"><span>5</span><span class="bump"></span>
+			</button><button type="button" class="btn2"><span>6</span>
+			</button><button type="button" class="btn2"><span>+</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn5" id="shift-btn"><span class="ll xs">shift</span>
+			</button><button type="button" class="btn2" id="z-letter"><span class="sm">Z<br>Я</span>
+			</button><button type="button" class="btn2" id="x-letter"><span class="sm">X<br>Ч</span>
+			</button><button type="button" class="btn2" id="c-letter"><span class="sm">C<br>Ё</span>
+			</button><button type="button" class="btn2" id="v-letter"><span class="sm">V<br>C</span>
+			</button><button type="button" class="btn2" id="b-letter"><span class="sm">B<br>M</span>
+			</button><button type="button" class="btn2" id="n-letter"><span class="sm">N<br>И</span>
+			</button><button type="button" class="btn2" id="m-letter"><span class="sm">M<br>T</span>
+			</button><button type="button" class="btn2" id="comma"><span class="sm">&lt;<br/>, Ъ</span>
+			</button><button type="button" class="btn2" id="point"><span class="sm">&gt;<br/>. В</span>
+			</button><button type="button" class="btn2" id="question"><span class="sm">?<br/>/ Ю</span>
+			</button><button type="button" class="btn5"><span class="lr xs">shift</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn2"><span><span class="up"></span></span></button>
+		</div>
+		<div class="row"><button type="button" class="btn2"><span>1</span>
+			</button><button type="button" class="btn2"><span>2</span>
+			</button><button type="button" class="btn2"><span>3</span>
+			</button><button type="button" class="btn10"><span class="lr xs">enter</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn7"><span class="ll xs">control</span>
+			</button><button type="button" class="btn6"><span class="ul xxs">alt</span><span class="ll xs">option</span>
+			</button><button type="button" class="btn7"><span class="ll xs">command</span><span class="lr xs noxscale">⌘</span>
+			</button><button type="button" class="btn-longest" id="spacebar"><span></span>
+			</button><button type="button" class="btn7"><span class="ll xs noxscale">⌘</span><span class="lr xs">command</span>
+			</button><button type="button" class="btn6"><span class="ur xxs">alt</span><span class="lr xs">option</span>
+			</button><button type="button" class="btn7"><span class="lr xs">control</span>
+			</button>
+		</div>
+		<div class="row"><button type="button" class="btn2"><span><span class="left"></span></span></button><button type="button" class="btn2"><span><span class="down"></span></span></button><button type="button" class="btn2"><span><span class="right"></span></span></button>
+		</div>
+		<div class="row"><button type="button" class="btn9"><span>0</span>
+			</button><button type="button" class="btn8"><span>.</span>
+			</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
